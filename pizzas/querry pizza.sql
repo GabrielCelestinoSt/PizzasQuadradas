@@ -1,0 +1,10 @@
+-- Tabela PIZZA
+ CREATE TABLE pizza (
+    codigo DECIMAL(5,0) PRIMARY KEY,
+    nome VARCHAR(30),
+	descricao VARCHAR(100) NOT NULL DEFAULT 'QUEIJO, MOLHO, TOMATE, AZEITONA',
+    valor DECIMAL(4 , 2 )
+ );
+
+
+ SELECT * FROM pizza
